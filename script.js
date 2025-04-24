@@ -7,4 +7,15 @@ const goToLogin = document.getElementById('goToLogin');
 const goToRegister = document.getElementById('goToRegister');
 const loginForm = document.getElementById('login');
 const registerForm = document.getElementById('register');
+// Toggle mobile menu
+menuToggle.addEventListener('click', () => {
+    navMenu.classList.toggle('responsive');
+});
+
+// Close menu when clicking on links
+document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('responsive');
+    });
+});
 
