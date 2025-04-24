@@ -19,3 +19,10 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+// Switch between login and register forms
+function showLoginForm() {
+    loginForm.style.left = '4px';
+    registerForm.style.right = '-520px';
+    loginBtn.classList.add('white-btn');
+    registerBtn.classList.remove('white-btn');
+}
