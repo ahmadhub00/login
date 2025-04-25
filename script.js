@@ -32,3 +32,14 @@ function showRegisterForm() {
     loginBtn.classList.remove('white-btn');
     registerBtn.classList.add('white-btn');
 }
+// Event listeners for form switching
+loginBtn.addEventListener('click', showLoginForm);
+registerBtn.addEventListener('click', showRegisterForm);
+goToLogin.addEventListener('click', showLoginForm);
+goToRegister.addEventListener('click', showRegisterForm);
+
+// Form submission - just reset the form
+loginForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.reset();
+});
