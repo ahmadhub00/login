@@ -26,3 +26,9 @@ function showLoginForm() {
     loginBtn.classList.add('white-btn');
     registerBtn.classList.remove('white-btn');
 }
+function showRegisterForm() {
+    loginForm.style.left = '-510px';
+    registerForm.style.right = '5px';
+    loginBtn.classList.remove('white-btn');
+    registerBtn.classList.add('white-btn');
+}
