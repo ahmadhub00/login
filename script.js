@@ -43,3 +43,8 @@ loginForm.addEventListener('submit', (e) => {
     e.preventDefault();
     e.target.reset();
 });
+registerForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    e.target.reset();
+    showLoginForm();
+});
