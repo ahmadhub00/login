@@ -70,3 +70,10 @@ link:hover,
     transition: 0.3s ease;
     color: #000;
 }
+.btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+#registerBtn {
+    margin-left: 15px;
+}
