@@ -77,3 +77,10 @@ link:hover,
 #registerBtn {
     margin-left: 15px;
 }
+white-btn {
+    background: rgba(255, 255, 255, 0.96);
+}
+
+.white-btn:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
