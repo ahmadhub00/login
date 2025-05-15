@@ -95,3 +95,11 @@ white-btn {
     overflow: hidden;
     z-index: 2;
 }
+.login-container {
+    position: absolute;
+    left: 4px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease-in-out;
+}
