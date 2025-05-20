@@ -151,3 +151,9 @@ header {
 ::-webkit-input-placeholder {
     color: #fff;
 }
+.input-box i {
+    position: relative;
+    top: -35px;
+    left: 17px;
+    color: #fff;
+}
