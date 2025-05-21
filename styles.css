@@ -157,3 +157,16 @@ header {
     left: 17px;
     color: #fff;
 }
+.submit {
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    height: 45px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
