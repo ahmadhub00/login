@@ -184,4 +184,8 @@ header {
     .nav-button {
         display: none;
     }
+     .nav-menu.responsive {
+        top: 100px;
+    }
+    
 }
