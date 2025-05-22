@@ -187,5 +187,9 @@ header {
      .nav-menu.responsive {
         top: 100px;
     }
-    
+    .nav-menu {
+        position: absolute;
+        top: -800px;
+        display: flex;
+    }
 }
