@@ -202,4 +202,7 @@ header {
         flex-direction: column;
         text-align: center;
     }
+    .nav-menu-btn {
+        display: block;
+    }
 }
