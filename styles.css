@@ -198,4 +198,8 @@ header {
         backdrop-filter: blur(20px);
         transition: 0.3s;
     }
+    .nav-menu ul {
+        flex-direction: column;
+        text-align: center;
+    }
 }
