@@ -205,4 +205,10 @@ header {
     .nav-menu-btn {
         display: block;
     }
+    .nav-menu-btn i {
+        font-size: 25px;
+        color: #fff;
+        padding: 10px;
+        
+    }
 }
