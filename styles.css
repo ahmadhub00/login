@@ -214,4 +214,7 @@ header {
         cursor: pointer;
         transition: 0.3s;
     }
+    .nav-menu-btn i:hover {
+        background: rgba(255, 255, 255, 0.15);
+    }
 }
