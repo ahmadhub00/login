@@ -229,6 +229,6 @@ header {
      .register-container,
 
      .login-container {
-        
+        width: 100%;
      }
 }
